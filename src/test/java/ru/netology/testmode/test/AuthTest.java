@@ -96,7 +96,7 @@ class AuthTest {
     }
 
     @Test
-    @DisplayName("Should get error message if login with wrong password")
+    @DisplayName("Should get error message if login with wrong")
     void shouldGetErrorIfWrongPassword() {
         var registeredUser = getRegisteredUser("active");
         var wrongPassword = getRandomPassword();
